@@ -1,0 +1,114 @@
+//****** */ Building RESTful APIs with Node.js and Express
+
+
+// var express = require("express");
+// var app = express();
+// app.listen(3000, () => {
+//  console.log("Server running on port 3000");
+// });
+// app.get("/url", (req, res, next) => {
+//     res.json(["fedaa","Fakhryah","fawzeh","age","Food"]);
+// });
+   
+
+
+
+
+// *******Handling GET, POSTRequests
+
+
+
+
+// public class BookDetailServlet extends HttpServlet {
+
+//     public void doGet (HttpServletRequest request,
+//                        HttpServletResponse response)
+//         throws ServletException, IOException
+//     {
+//         ...
+// 	// set content-type header before accessing the Writer
+//         response.setContentType("text/html");
+//         PrintWriter out = response.getWriter();
+
+// 	// then write the response
+//         out.println("<html>" +
+//                     "<head><title>Book Description</title></head>" +
+//                     ...);
+
+//         //Get the identifier of the book to display
+//         String bookId = request.getParameter("bookId");
+//         if (bookId != null) {
+//             // and the information about the book and print it
+//             ...
+//         }
+//         out.println("</body></html>");
+//         out.close();
+//     }
+//     ...
+// }
+
+//*****PUT,******** */
+
+// public class ReceiptServlet extends HttpServlet { 
+
+//     public void doPost(HttpServletRequest request,
+//                        HttpServletResponse response)
+// 	throws ServletException, IOException
+//     {
+//         ...
+//         // set content type header before accessing the Writer
+//         response.setContentType("text/html");
+//         PrintWriter out = response.getWriter();
+        
+//         // then write the response
+//         out.println("<html>" +
+//                     "<head><title> Receipt </title>" +
+//                     ...);
+        
+//         out.println("<h3>Thank you for purchasing your books from us " +
+//                     request.getParameter("cardname") +
+//                     ...);
+//         out.close();
+//     }
+//     ...
+// }
+
+
+
+
+//******DEl********* */
+
+
+// const deleteSql =
+//  `begin
+ 
+//     delete from job_history
+//     where employee_id = :employee_id;
+ 
+//     delete from employees
+//     where employee_id = :employee_id;
+ 
+//     :rowcount := sql%rowcount;
+ 
+//   end;`
+ 
+// async function del(id) {
+//   const binds = {
+//     employee_id: id,
+//     rowcount: {
+//       dir: oracledb.BIND_OUT,
+//       type: oracledb.NUMBER
+//     }
+//   }
+//   const result = await database.simpleExecute(deleteSql, binds);
+ 
+//   return result.outBinds.rowcount === 1;
+// }
+ 
+// module.exports.delete = del;
+
+
+
+
+
+
